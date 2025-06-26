@@ -19,8 +19,8 @@ public class addProductToCart {
 		String PASSWORD = futil.readDataFromPropertyFile("password");
 		
 		//Read data from excel file
-		String PRODUCT_NAME = futil.readDataFromExcelFile("Sheet1", 4, 2);
-		System.out.println(PRODUCT_NAME);
+		//String PRODUCT_NAME = futil.readDataFromExcelFile("Sheet1", 4, 2);
+	//	System.out.println(PRODUCT_NAME);
 		
 		WebDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
